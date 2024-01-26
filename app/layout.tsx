@@ -3,7 +3,7 @@ import "./globals.css";
 export default function RootLayout() {
   return (
     <html lang="en">
-      <nav className="flex justify-center mt-10 ">
+      <nav className="absolute">
         <button className="border border-neutral-300 bg-white font-bold py-2 px-4 left">
           <svg
             className="cone"
@@ -21,7 +21,7 @@ export default function RootLayout() {
             />
           </svg>
         </button>
-        <button className="border border-neutral-300 text-white font-bold py-2 px-4 right">
+        <button className="border border-neutral-300 bg-white text-white font-bold py-2 px-4 right">
           <svg
             className="menu"
             width="42"
@@ -40,8 +40,8 @@ export default function RootLayout() {
         </button>
       </nav>
       <div className="">
-        <div className="relative flex-1">
-          <svg className="w-full absolute -z-10"
+        <div className="relative z-10">
+          <svg className="w-full"
             width="376"
             height="122"
             viewBox="0 0 376 122"
