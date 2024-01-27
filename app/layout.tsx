@@ -3,7 +3,7 @@ import "./globals.css";
 export default function RootLayout() {
   return (
     <html lang="en">
-      <nav className="absolute">
+      <nav className="absolute mt-5">
         <button className="border border-neutral-300 bg-white font-bold py-2 px-4 left">
           <svg
             className="cone"
@@ -40,7 +40,7 @@ export default function RootLayout() {
         </button>
       </nav>
       <div className="">
-        <div className="relative z-10">
+        <div className="relative -z-10">
           <svg className="w-full"
             width="376"
             height="122"
@@ -61,15 +61,16 @@ export default function RootLayout() {
                 y1="121.712"
                 x2="188.484"
                 y2="-33.7087"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#DADADA" stopOpacity="0" />
-                <stop offset="1" stopColor="#D6D6D6" />
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-      </div>
-    </html>
-  );
-}
+                gradientUnits="userSpaceOnUse"   
+              >   
+                <stop stopColor="#DADADA" stopOpacity="0" />   
+                <stop offset="1" stopColor="#D6D6D6" />   
+              </linearGradient>   
+            </defs>   
+          </svg>   
+        </div>   
+      </div>   
+    </html>   
+  );   
+}   
+   
