@@ -23,3 +23,16 @@
   height: 24.24px;
 } */
 
+@media (min-width: 768px) {
+  .max-w-sm {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 767px) {
+  .max-w-sm {
+    display: flex;
+    flex-direction: column;
+  }
+}
