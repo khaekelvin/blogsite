@@ -18,14 +18,18 @@ function Hero() {
         </div>
        
 
-
-<a href="#" className="flex flex-col md:w-full md:h-72 items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row dark:border-gray-700 dark:bg-gray-800 ">
-  <img className=" h-full object-cover" src={macbook.src} alt="MacBook" />
+<div className="bg-white p-3 rounded-xl m-4 mt-8">
+<a href="#" className="flex flex-col card md:w-full md:h-96 bg-white rounded-lg md:flex-row">
+  <img className=" h-full object-cover rounded" src={macbook.src} alt="MacBook" />
   <div className="flex flex-col justify-between p-4 leading-normal">
-    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+    <div className="pl-10">
+    <p>Freeelancing 101 * Joseph Patrick</p>
+    <h2>07 Ways to get <br/> Consistent Clients from <br/> Social Media</h2>
+    <p>15 Min Read * 23-05-2023</p>
+    </div>
   </div>
 </a>
+</div>
 
       </div>
 

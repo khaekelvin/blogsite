@@ -36,3 +36,11 @@
     flex-direction: column;
   }
 }
+
+body {
+  background-color: #F4F4F4;
+}
+
+.card {
+  background-color: #F8F8F8;
+}
