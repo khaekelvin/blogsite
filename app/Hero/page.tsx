@@ -17,7 +17,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className="bg-white p-3 rounded-xl m-4 mt-8 text-center">
+        <div className="bg-white p-3 rounded-xl m-4 mt-8 text-center font-helvetica">
           <a
             href="#"
             className="flex flex-col card md:w-full md:h-96 bg-white rounded-lg md:flex-row "
@@ -27,10 +27,10 @@ function Hero() {
               src={macbook.src}
               alt="MacBook"
             />
-            <div className="flex flex-col leading-normal sm:text-center ">
-              <div className="">
-                <p className="">Freeelancing 101 * Joseph Patrick</p>
-                <h2>
+            <div className="flex flex-col leading-normal">
+              <div className="lg:pl-9 mt-auto mb-auto">
+                <p className="">FREELANCING 101 * Joseph Patrick</p>
+                <h2 className="">
                   07 Ways to get <br /> Consistent Clients from <br /> Social
                   Media
                 </h2>
