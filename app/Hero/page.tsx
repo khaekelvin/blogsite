@@ -16,24 +16,30 @@ function Hero() {
             </p>
           </div>
         </div>
-       
 
-<div className="bg-white p-3 rounded-xl m-4 mt-8">
-<a href="#" className="flex flex-col card md:w-full md:h-96 bg-white rounded-lg md:flex-row">
-  <img className=" h-full object-cover rounded" src={macbook.src} alt="MacBook" />
-  <div className="flex flex-col justify-between p-4 leading-normal">
-    <div className="pl-10">
-    <p>Freeelancing 101 * Joseph Patrick</p>
-    <h2>07 Ways to get <br/> Consistent Clients from <br/> Social Media</h2>
-    <p>15 Min Read * 23-05-2023</p>
-    </div>
-  </div>
-</a>
-</div>
-
+        <div className="bg-white p-3 rounded-xl m-4 mt-8 text-center">
+          <a
+            href="#"
+            className="flex flex-col card md:w-full md:h-96 bg-white rounded-lg md:flex-row "
+          >
+            <img
+              className=" h-full object-cover rounded"
+              src={macbook.src}
+              alt="MacBook"
+            />
+            <div className="flex flex-col leading-normal sm:text-center ">
+              <div className="">
+                <p className="">Freeelancing 101 * Joseph Patrick</p>
+                <h2>
+                  07 Ways to get <br /> Consistent Clients from <br /> Social
+                  Media
+                </h2>
+                <p>15 Min Read * 23-05-2023</p>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
-
-
     </>
   );
 }
