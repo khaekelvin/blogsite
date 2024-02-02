@@ -28,10 +28,10 @@ function Hero() {
               alt="MacBook"
             />
             <div className="flex flex-col leading-normal sm:text-center">
-              <div className="lg:pl-9 mt-auto mb-auto lg:text-left ">
+              <div className="lg:pl-20 mt-auto mb-auto lg:text-left">
                 <p className="free text-lg mt-10 mb-5">FREELANCING 101 • Joseph Patrick</p>
                 <h1 className="text-4xl font-medium sm:break-words mb-10 lg:w-96">                  
-                  07 Ways to get   Consistent Clients from   Social
+                  07 Ways to get Consistent Clients from Social
                   Media
                 </h1>
                 <p className="min font-medium text-lg mb-10">15 Min Read • 23-05-2023</p>
