@@ -27,8 +27,8 @@ function Hero() {
               src={macbook.src}
               alt="MacBook"
             />
-            <div className="flex flex-col leading-normal">
-              <div className="lg:pl-9 mt-auto mb-auto text-left">
+            <div className="flex flex-col leading-normal sm:text-center">
+              <div className="lg:pl-9 mt-auto mb-auto lg:text-left ">
                 <p className="">FREELANCING 101 * Joseph Patrick</p>
                 <h1 className="text-3xl font-medium">
                   07 Ways to get <br /> Consistent Clients from <br /> Social
