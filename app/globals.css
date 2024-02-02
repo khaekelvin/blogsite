@@ -53,3 +53,12 @@ h1 {
 p {
   color: #667085;
 }
+
+.free {
+  color: #667085;
+}
+
+.min {
+  color: #475467;
+  font-weight: 500;
+}
