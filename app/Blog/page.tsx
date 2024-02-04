@@ -3,18 +3,18 @@ import React from 'react'
 function blog() {
   return (
     <>
-    <div className='max-w-7xl mx-auto mt-20 flex flex-wrap justify-between '>
+    <div className='max-w-7xl mx-auto mt-20 justify-between sm:flex'>
     <div>
-      <h1 className="text-6xl font-bold mb-8 text-center">Blogs</h1>
+      <h1 className="text-6xl font-bold mb-8 text-center sm:text-left">Blogs</h1>
     </div>
     
-    <div className='flex flex-wrap'>
-    <div className='flex'>
-    <button className='rounded-3xl border w-24 h-10 border-slate-950 mt-auto mb-auto'>All Blogs</button>
+    <div className='sm:flex'>
+    <div className='flex sm:justify-start justify-center'>
+    <button className='rounded-3xl w-24 h-10 mt-auto mb-auto border-2 cc'>All Blogs</button>
     <p className='mt-auto mb-auto  ml-5'>Trends</p>
     </div>
 
-    <div className='flex'>
+    <div className='flex sm:justify-start justify-center sm:mt-0 mt-5'>
         <p className='mt-auto mb-auto  ml-5'>Research</p>
         <p className='mt-auto mb-auto  ml-5'>Research</p>
         <p className='mt-auto mb-auto  ml-5'>In-house Knowledge</p>
@@ -26,3 +26,5 @@ function blog() {
 }
 
 export default blog
+
+// flex

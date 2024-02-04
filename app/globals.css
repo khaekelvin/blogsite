@@ -62,3 +62,12 @@ p {
   color: #475467;
   font-weight: 500;
 }
+
+button {
+  background-color: #EDF2F5;
+  border-color: #294F74;
+}
+
+.cc {
+  color: #294F74;
+}
