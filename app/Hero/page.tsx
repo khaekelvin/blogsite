@@ -17,7 +17,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className="bg-white p-3  rounded-xl mt-8 text-center font-helvetica ml-2 mr-2">
+        <div className="bg-white p-3 rounded-xl mt-8 text-center font-helvetica sm:mx-0 mx-2">
           <a
             href="#"
             className="flex flex-col card md:w-full md:h-96 bg-white rounded-lg md:flex-row "
