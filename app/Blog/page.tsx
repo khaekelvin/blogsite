@@ -15,9 +15,9 @@ function blog() {
     </div>
 
     <div className='flex sm:justify-start justify-center sm:mt-0 mt-5'>
-        <button className='my-auto ml-5 btn px-1 sm:px-2 h-10'>Research</button>
-        <button className='my-auto ml-5 btn px-1 sm:px-2 sm:hidden h-10'>Research</button>
-        <button className='my-auto ml-5 btn px-1 sm:px-2 h-10'>In-house Knowledge</button>
+        <button className='my-auto ml-4 btn px-1 sm:px-2 h-10'>Research</button>
+        <button className='my-auto ml-4 btn px-1 sm:px-2 sm:hidden h-10'>Research</button>
+        <button className='my-auto ml-4 btn px-1 sm:px-2 h-10'>In-house Knowledge</button>
     </div>
     </div>
     </div>
