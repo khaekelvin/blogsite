@@ -11,13 +11,13 @@ function blog() {
     <div className='sm:flex'>
     <div className='flex sm:justify-start justify-center'>
     <button className='rounded-3xl w-24 h-10 my-auto border-2 cc font-bold'>All Blogs</button>
-    <button className='my-auto ml-5 btn rounded px-2'>Trends</button>
+    <button className='my-auto ml-5 btn rounded px-2 h-10'>Trends</button>
     </div>
 
     <div className='flex sm:justify-start justify-center sm:mt-0 mt-5'>
-        <button className='my-auto ml-5 btn px-1.5'>Research</button>
-        <button className='my-auto ml-5 btn px-1.5 sm:hidden'>Research</button>
-        <button className='my-auto ml-5 btn px-1.5'>In-house Knowledge</button>
+        <button className='my-auto ml-5 btn px-1.5 h-10'>Research</button>
+        <button className='my-auto ml-5 btn px-1.5 sm:hidden h-10'>Research</button>
+        <button className='my-auto ml-5 btn px-1.5 h-10'>In-house Knowledge</button>
     </div>
     </div>
     </div>
