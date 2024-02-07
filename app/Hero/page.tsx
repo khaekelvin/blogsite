@@ -62,7 +62,7 @@ function Hero() {
             <div className="flex flex-col leading-normal sm:text-center">
               <div className="lg:pl-20 mt-auto mb-auto lg:text-left">
                 <p className="free text-lg mt-10 mb-5">FREELANCING 101 • Joseph Patrick</p>
-                <h1 className="text-4xl font-medium sm:break-words mb-10 lg:w-96">                  
+                <h1 className="text-4xl font-medium sm:break-words mb-10 sm:mb-16 lg:w-96">                  
                   07 Ways to get Consistent Clients from Social
                   Media
                 </h1>
