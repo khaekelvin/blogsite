@@ -42,44 +42,35 @@ const cardData = [
 ];
 
 
+
 function Card() {
   return (
-    <>
-      <div className="max-w-7xl mx-auto mb-10">
-        <div className="mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {cardData.map((data, index) => (
-            <div
-              key={index}
-              className="bg-white p-3 rounded-xl mt-8 text-center font-helvetica"
-            >
-              <a
-                href="#"
-                className="flex flex-col card md:w-full md:h-96 bg-white rounded-lg md:flex-row "
-              >
-                <div className="flex flex-col leading-normal lg:mx-5">
-                  <img
-                    className=" w-48 object-cover rounded"
-                    src={data.imageSrc}
-                    alt="social"
-                  />
-                  <div className="mt-auto mb-auto text-left">
-                    <p className="free text-lg mt-10 mb-5">{data.title}</p>
-                    <h1 className="text-3xl font-medium sm:break-words mb-10 sm:mb-16 lg:w-96">
-                      {data.description}
-                    </h1>
-                    <p className="min font-medium text-lg mb-10">{`15 Min Read • ${data.date}`}</p>
-                  </div>
-                </div>
-              </a>
+    <div>
+      <div className="bg-white p-3 rounded-xl mt-8 text-center font-helvetica sm:mx-0 mx-2">
+        <a
+          href="#"
+          className="flex flex-col card md:h-96 bg-white rounded-lg md:flex-row "
+        >
+          <div className="flex flex-col leading-normal sm:text-center">
+            <img
+              className=" h-full object-cover rounded"
+              // src={macbook.src}
+              alt="MacBook"
+            />
+            <div className="lg:pl-20 mt-auto mb-auto lg:text-left">
+              <p className="free text-lg mt-10 mb-5">FREELANCING 101 • Joseph Patrick</p>
+              <h1 className="text-4xl font-medium sm:break-words mb-10 sm:mb-16 lg:w-96">                  
+                07 Ways to get Consistent Clients from Social Media
+              </h1>
+              <p className="min font-medium text-lg mb-10">15 Min Read • 23-05-2023</p>
             </div>
-          ))}
-        </div>
+          </div>
+        </a>
       </div>
-    </>
-  );
+    </div>
+  )
 }
-
-export default Card;
+export default Card
 
 
 // {
