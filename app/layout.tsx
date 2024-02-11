@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "./Header/page";
 import Hero from "./Hero/page";
 import Blog from "./Blog/page";
+import Card from "./Components/Card/Page";
 
 export default function RootLayout() {
   return (
@@ -12,6 +13,7 @@ export default function RootLayout() {
         <div > 
         <Hero/>
         <Blog/>
+        <Card/>
         </div>
     </html>   
   );   
