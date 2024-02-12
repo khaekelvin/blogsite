@@ -1,124 +1,78 @@
-import React from 'react'
-
+import React from "react";
 
 const cardData = [
-  
   {
     title: "FREELANCING 101 • Christina Morillo",
     description: "Enhance UX: Designing Better UX/UI",
     date: "2023-05-24",
-    imageSrc: "https://i.ibb.co/0sMDLNX/Group-1000004815.png",
+    imageSrc: "https://images.unsplash.com/photo-1505533321630-975218a5f66f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "FREELANCING 101 • Smith Jack",
     description: "Designing Impression: The Power of First Impressions",
     date: "2023-05-24",
-    imageSrc: "https://i.ibb.co/d4Y23FL/3dicons.png",
+    imageSrc: "https://images.unsplash.com/photo-1505533321630-975218a5f66f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "FREELANCING 101 • Brian Smith",
     description: "Case Study: FlipX, an Investment Attraction Startup",
     date: "2023-05-24",
-    imageSrc: "image4.jpg",
+    imageSrc: "https://images.unsplash.com/photo-1505533321630-975218a5f66f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "FREELANCING 101 • Lilly Bella",
     description: "Mastering Startup Branding: Expanding Digital Presence",
     date: "2023-05-24",
-    imageSrc: "image5.jpg",
+    imageSrc: "https://images.unsplash.com/photo-1505533321630-975218a5f66f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "FREELANCING 101 • Gigi Hadid",
     description: "Designing for Productivity: Efficiency Rules",
     date: "2023-05-24",
-    imageSrc: "image6.jpg",
+    imageSrc: "https://images.unsplash.com/photo-1505533321630-975218a5f66f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "FREELANCING 101 • William George",
     description: "Kickstart your UI/UX design career?",
     date: "2023-05-23",
-    imageSrc: "image1.jpg",
+    imageSrc: "https://images.unsplash.com/photo-1505533321630-975218a5f66f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
-
-
 function Card() {
   return (
-    <div>
-      <div className="bg-white p-3 rounded-xl mt-8 text-center font-helvetica sm:mx-0 mx-2">
-        <a
-          href="#"
-          className="flex flex-col card md:h-96 bg-white rounded-lg md:flex-row "
-        >
-          <div className="flex flex-col leading-normal sm:text-center">
+    <>
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {cardData.map((card, index) => (
+        <div className="bg-white p-3 w-auto rounded-xl mt-8 text-center font-helvetica sm:mx-0 mx-2">
+          <a
+            href="#"
+            className="flex flex-col card h-auto bg-white rounded-lg "
+          >
             <img
               className=" h-full object-cover rounded"
-              // src={macbook.src}
-              alt="MacBook"
+              src={card.imageSrc}
+              alt="social"
             />
-            <div className="lg:pl-20 mt-auto mb-auto lg:text-left">
-              <p className="free text-lg mt-10 mb-5">FREELANCING 101 • Joseph Patrick</p>
-              <h1 className="text-4xl font-medium sm:break-words mb-10 sm:mb-16 lg:w-96">                  
-                07 Ways to get Consistent Clients from Social Media
-              </h1>
-              <p className="min font-medium text-lg mb-10">15 Min Read • 23-05-2023</p>
+            <div className="flex flex-col leading-normal sm:text-center">
+              <div className="pl-5 mt-auto mb-auto text-left">
+                <p className="free text-base mt-10 mb-5">
+                {card.title}
+                  
+                </p>
+                <h1 className="text-2xl font-medium sm:break-words mb-10 sm:mb-16 lg:w-96">
+                {card.description}
+                </h1>
+                <p className="min font-medium text-base mb-10">
+                  15 Min Read • {card.date}
+                </p>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
+        ))}
       </div>
-    </div>
-  )
+    </>
+  );
 }
-export default Card
-
-
-// {
-//   "tags": ["FREELANCING 101", "William George"],
-//   "title": "07 Ways to get Consistent Clients from Social Media",
-//   "readTime": "15 min read",
-//   "date": "23-05-2023",
-//   "image": "https://i.ibb.co/VLHTNH8/Frame-2-1.png"
-// },
-// {
-//   "tags": ["FREELANCING 101", "Christina Morillo"],
-//   "title": "Enhance UX: Designing Better UX/UI",
-//   "readTime": "15 min read",
-//   "date": "23-05-2023",
-//   "image": "https://i.ibb.co/0sMDLNX/Group-1000004815.png"
-// },
-// {
-//   "tags": ["FREELANCING 101", "Smith Jack"],
-//   "title": "Designing Impression: The Power of First Impressions",
-//   "readTime": "15 min read",
-//   "date": "23-05-2023",
-//   "image": "https://i.ibb.co/d4Y23FL/3dicons.png"
-// },
-// {
-//   "tags": ["FREELANCING 101", "Brian Smith"],
-//   "title": "Case Study: FlipX, an Investment Attraction Startup",
-//   "readTime": "15 min read",
-//   "date": "23-05-2023",
-//   "image": "https://i.ibb.co/0sMDLNX/Group-1000004815.png"
-// },
-// {
-//   "tags": ["FREELANCING 101", "Lilly Bella"],
-//   "title": "Mastering Startup Branding: Expanding Digital Presence",
-//   "readTime": "15 min read",
-//   "date": "23-05-2023",
-//   "image": "https://i.ibb.co/d4Y23FL/3dicons.png"
-// },
-// {
-//   "tags": ["FREELANCING 101", "Gigi Hadid"],
-//   "title": "Designing for Productivity: Efficiency Rules",
-//   "readTime": "15 min read",
-//   "date": "23-05-2023",
-//   "image": "https://i.ibb.co/0sMDLNX/Group-1000004815.png"
-// },
-// {
-//   "tags": ["FREELANCING 101", "David Travis"],
-//   "title": "Kickstart your UI/UX design career?",
-//   "readTime": "15 min read",
-//   "date": "23-05-2023",
-//   "image": "https://i.ibb.co/d4Y23FL/3dicons.png"
-// }
+export default Card;
