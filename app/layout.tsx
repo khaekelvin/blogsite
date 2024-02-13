@@ -3,6 +3,7 @@ import Header from "./Header/page";
 import Hero from "./Hero/page";
 import Blog from "./Blog/page";
 import Card from "./Components/Card/Page";
+import Footer from "./Footer/page";
 
 export default function RootLayout() {
   return (
@@ -15,6 +16,7 @@ export default function RootLayout() {
         <Blog/>
         <Card/>
         </div>
+        <Footer/>
     </html>   
   );   
 }   
