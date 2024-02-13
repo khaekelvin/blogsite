@@ -43,33 +43,32 @@ function Card() {
   return (
     <>
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4">
-      {cardData.map((card, index) => (
-        <div className="bg-white p-3 w-auto rounded-xl mt-8 text-center font-helvetica sm:mx-0 mx-2">
-          <a
-            href="#"
-            className="flex flex-col card h-auto bg-white rounded-lg "
-          >
-            <img
-              className=" h-[294px] object-cover rounded"
-              src={card.imageSrc}
-              alt="social"
-            />
-            <div className="flex flex-col leading-normal sm:text-center">
-              <div className="pl-5 mt-auto mb-auto text-left">
-                <p className="free text-base mt-10 mb-5">
-                {card.title}
-                  
-                </p>
-                <h1 className="text-2xl font-medium sm:break-words mb-10">
-                {card.description}
-                </h1>
-                <p className="min font-medium text-base mb-10">
-                  15 Min Read • {card.date}
-                </p>
+        {cardData.map((card, index) => (
+          <div className="bg-white p-3 w-auto rounded-xl mt-8 text-center font-helvetica sm:mx-0 mx-2">
+            <a
+              href="#"
+              className="flex flex-col card h-auto bg-white rounded-lg "
+            >
+              <img
+                className="h-[294px] object-cover rounded"
+                src={card.imageSrc}
+                alt="social"
+              />
+              <div className="flex flex-col leading-normal sm:text-center">
+                <div className="pl-5 mt-auto mb-auto text-left">
+                  <p className="free text-base mt-10 mb-5">
+                    {card.title}
+                  </p>
+                  <h1 className="text-2xl font-medium sm:break-words mb-10">
+                    {card.description}
+                  </h1>
+                  <p className="min font-medium text-base mb-10">
+                    15 Min Read • {card.date}
+                  </p>
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
+            </a>
+          </div>
         ))}
       </div>
     </>
