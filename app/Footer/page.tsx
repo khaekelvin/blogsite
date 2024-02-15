@@ -22,7 +22,7 @@ function page() {
               </div>
             </div>
 
-            <div className="max-w-80 mx-auto text-xl">
+            <div className="max-w-80 mx-auto text-xl mt-10">
               <div className="flex justify-between text-left">
                 <p className="mb-3">Home</p>
                 <p className="mb-3">Services</p>
@@ -39,6 +39,11 @@ function page() {
               <p className="text-center my-5">NewYork, US</p>
               <p className="text-center">AtlasPremier. All Rights Reserved</p>              
             </div>
+
+            <div className="text-5xl bottom-0 mt-10">
+              <p className="text-center bottom-0 font-bold text">Atlas Premier</p>                      
+            </div>
+
           </div>
         </div>
       </div>
