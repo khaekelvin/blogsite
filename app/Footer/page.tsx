@@ -6,7 +6,7 @@ function page() {
     <>
       <div className="foot w-full h-[600px] justify-items-center relative ">
         <div>
-          <div className="absolute inset-0 max-w-7xl bg-white rounded-xl h-[500px] lg:mx-auto my-auto mx-2">
+          <div className="absolute inset-0 max-w-7xl bg-white rounded-2xl h-[500px] lg:mx-auto my-auto mx-2">
             <div className="max-w-80 mx-auto">
               <p className="font-bold hel text-xl flex justify-center mt-4">
                 Say Hello!
@@ -41,7 +41,7 @@ function page() {
             </div>
 
             <div className="text-5xl bottom-0 mt-10">
-              <p className="text-center bottom-0 font-bold text">Atlas Premier</p>                      
+              <p className="text-center bottom-0 font-bold text absolute inset-x-0">Atlas Premier</p>
             </div>
 
           </div>
