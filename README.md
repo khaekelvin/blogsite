@@ -8,6 +8,8 @@ Certainly! Below is a sample README for a blog website project using TSX (TypeSc
 
 This project is a simple blog website built with React.js, TypeScript (TSX), and Tailwind CSS. It allows users to view blog posts, search for specific topics, and read detailed articles.
 
+Link: https://openblogsite.netlify.app/
+
 ## Features
 
 - **Responsive Design:** The website is designed to be responsive and accessible across various devices.
